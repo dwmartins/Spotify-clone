@@ -49,6 +49,7 @@ nav.navbar-transparente {
 
 .capa {
     text-align: center;
+    padding: 10px 0px; 
 }
 
 .capa .btn-custom {
@@ -66,6 +67,7 @@ nav.navbar-transparente {
 .capa .btn-purple:hover {
     background: #6207e3;
     color: #fff;
+    text-decoration: none;
 }
 
 .capa .btn-white {
@@ -76,6 +78,15 @@ nav.navbar-transparente {
     background: #fff;
     color: #000000;
 }
+
+.carousel .carousel-control-prev {
+    width: 5%;
+}
+
+.carousel .carousel-control-next {
+    width: 5%;
+}
+
 
 /* Estrutura de conteúdos
 -------------------*/
@@ -176,7 +187,7 @@ footer ul li {
     }
 
     .capa .btn-custom {
-        margin: 10px 15px;
+        margin: 5px 0px;
     }
 
     .albuns img {
@@ -195,7 +206,7 @@ footer ul li {
     }
 
     .capa .btn-custom {
-        margin: 10px 15px;
+        margin: 5px 0px;
     }
 
     .albuns img {
